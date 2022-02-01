@@ -76,3 +76,28 @@ Functional Components
 - they are just javascript functions
 - they can optionally receive an object of properties (props)
 - and return html (jsx)
+
+## ReactJS Tutorial 6
+Class components
+ES6 classes
+can optionally receive props
+and return html (jsx)
+
+can also maintain a private internal state
+
+Functional vs Class components
+
+Functional
+Simple functions
+use Func components as much as possible
+Absence of 'this' keyword
+Solution without using state
+Mainly responsible for the UI
+Stateless, dumb, presentational components
+
+Class
+More feature rich components
+maintain their own private date (state)
+complex UI logic
+provide lifecycle hooks
+stateful, smart, container components
