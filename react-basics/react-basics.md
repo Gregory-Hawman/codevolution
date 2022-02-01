@@ -93,7 +93,7 @@ use Func components as much as possible
 Absence of 'this' keyword
 Solution without using state
 Mainly responsible for the UI
-Stateless, dumb, presentational components
+Stateless, dumb, presentational components <!-- until hooks came around -->
 
 Class
 More feature rich components
@@ -101,3 +101,43 @@ maintain their own private date (state)
 complex UI logic
 provide lifecycle hooks
 stateful, smart, container components
+
+## ReactJS Tutorial 7
+React hooks
+makes it so that functions components can now also use state.
+
+Hooks
+No breaking changes, wont break old code, 100% backwards compatibility.
+Still important to learn class components ands using state, lifecycle methods, and 'this' binding.
+
+## ReactJS Tutorial 8
+JSX
+an extension to the javascript language syntax for
+JSX make your react code simpler and elegant.
+
+JSX differences
+class => className
+for => htmlFor
+camelCase property naming convention
+onclick => onclick
+tabindex => tabindex
+
+## ReactJS Tutorial 9
+Props
+short for properties
+allows components to be dynamic
+
+props are immutable (cannot change their value)
+but if you can't change props, how do you maintain component data that may change over time.
+## ReactJS Tutorial 10
+State
+2nd way to influence what is rendered on the screen.
+
+Props vs State
+props get passed to the component // state is managed within the component
+(function parameters) // (vars declared in the function body)
+parents own the props, cannot be changed by the children // state is managed within the component, so the component has full control.
+props - functional components // usestate hook - functional components
+this. props - class components // this.state - class components
+
+both props and state hold informantion that can influence what is rendered on the screen.
