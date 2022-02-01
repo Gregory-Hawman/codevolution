@@ -2,13 +2,14 @@
 // import Welcome from './components/GreetClass';
 // import Hello from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Message />
-
+      <Counter />
       {/* <Greet name='Bruce' hero='Batman'>
         <p>This is children props</p>
       </Greet>

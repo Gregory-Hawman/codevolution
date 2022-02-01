@@ -141,3 +141,10 @@ props - functional components // usestate hook - functional components
 this. props - class components // this.state - class components
 
 both props and state hold informantion that can influence what is rendered on the screen.
+
+## ReactJS Tutorial 11
+setState
+
+## ReactJS Tutorial 12
+Destructuring props and state
+unfinished
